@@ -28,7 +28,7 @@ const HeroSection = () => {
                         ]}
                         wrapper="span"
                         speed={50}
-                        className="text-yellow-500" // Tailwind class for yellow textolor: '#FFD700' }} // Set color here
+                        className="text-white" // Tailwind class for yellow textolor: '#FFD700' }} // Set color here
                         style={{ fontSize: '2em', display: 'inline-block' }}
                         repeat={Infinity}
                     />
