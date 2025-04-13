@@ -19,12 +19,12 @@ const HeroSection = () => {
                             // Same substring at the start will only be typed out once, initially
                             'Bala',
                             1000, // wait 1s before replacing "Mice" with "Hamsters"
-                            'Building a biology language',
+                            'majoring in CS',
                             1000,
-                            'Designing hardware accelerators',
+                            'an EE enthusiast',
                             1000,
-                            'Studying EE and CS',
-                            1000
+                            'building compilers',
+                            1000,
                         ]}
                         wrapper="span"
                         speed={50}
@@ -35,8 +35,12 @@ const HeroSection = () => {
                     {/* <h1 className='text-white mb-4 text-3xl sm:text-3xl lg:text-5xl font-extrabold'>I am Bala</h1>
                     <p className="text-white text-lg lg:text-2xl">a CS systems & EE enthusiast</p> */}
                     <div>
-                        <button className='w-full sm:w-fit px-6 py-3 bg-white rounded-full mr-4 mt-4  text-black hover:bg-slate-100'>Hire Me</button>
-                        <button className='w-full sm:w-fit px-6 py-3 bg-white rounded-full text-black hover:bg-slate-100 mt-3'>Download CV</button>
+                        <a href="mailto:bala@cs.stanford.edu">
+                            <button className='w-full sm:w-fit px-6 py-3 bg-white rounded-full mr-4 mt-4 text-black hover:bg-slate-100'>Hire Me</button>
+                        </a>
+                        <a href="/Documents/EE_Bala Vinaithirthan.pdf" target="_blank" rel="noopener noreferrer">
+                            <button className='w-full sm:w-fit px-6 py-3 bg-white rounded-full text-black hover:bg-slate-100 mt-3'>Download CV</button>
+                        </a>
                     </div>
                 </div>
                 <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
