@@ -9,7 +9,7 @@ const AboutSection = () => {
                 </h2>
                 <div className='text-gray-300 text-lg md:text-xl leading-relaxed space-y-6 bg-gray-800/30 p-8 rounded-xl backdrop-blur-sm border border-gray-700/50'>
                     <p className='font-light tracking-wide'>
-                        I am a CS and EE student at Stanford University working on compilers,
+                        My name is Bala Vinaithirthan. I am a CS and EE student at Stanford University working on compilers,
                         high-performance computing, and computer architecture. I am advised by Fredrik Kjolstad.
                     </p>
                     <p className='font-light tracking-wide'>
