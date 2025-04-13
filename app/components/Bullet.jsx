@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 const Bullet = ({ projectName, href, description }) => {
     return (
-        <div>
-            <Link href={href} className='text-white text-2xl font-bold my-2.5'>
+        <div className='group'>
+            <Link href={href} className='text-white text-3xl font-black tracking-tight hover:text-[#FFD700] transition-colors duration-300 my-2.5 block'>
                 {projectName}
-            </Link>,
-            <div className='text-white'>
+            </Link>
+            <div className='text-gray-300 text-lg font-light tracking-wide leading-relaxed'>
                 {description}
             </div>
         </div>

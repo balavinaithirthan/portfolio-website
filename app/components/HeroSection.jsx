@@ -10,10 +10,9 @@ const HeroSection = () => {
             <div className="grid grid-cols-1 sm:grid-cols-12">
                 <div className='col-span-7 place-self-center text-center sm:text-left'>
                     {/* <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">Welcome, I am</h1> */}
-                    <span className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold'>
-                        Hello, I am {" "}
+                    <span className='text-white mb-4 text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight block'>
+                        Welcome, I am {" "}
                     </span>
-                    <br></br>
                     <TypeAnimation
                         sequence={[
                             // Same substring at the start will only be typed out once, initially
@@ -28,18 +27,18 @@ const HeroSection = () => {
                         ]}
                         wrapper="span"
                         speed={50}
-                        className="text-white" // Tailwind class for yellow textolor: '#FFD700' }} // Set color here
-                        style={{ fontSize: '2em', display: 'inline-block' }}
+                        className="text-[#FFD700] font-black tracking-tight"
+                        style={{ fontSize: '3em', display: 'inline-block' }}
                         repeat={Infinity}
                     />
                     {/* <h1 className='text-white mb-4 text-3xl sm:text-3xl lg:text-5xl font-extrabold'>I am Bala</h1>
                     <p className="text-white text-lg lg:text-2xl">a CS systems & EE enthusiast</p> */}
-                    <div>
+                    <div className='mt-8 space-x-4'>
                         <a href="mailto:bala@cs.stanford.edu">
-                            <button className='w-full sm:w-fit px-6 py-3 bg-white rounded-full mr-4 mt-4 text-black hover:bg-slate-100'>Hire Me</button>
+                            <button className='px-8 py-4 bg-white rounded-full mr-4 text-black hover:bg-slate-100 transition-all duration-300 font-medium tracking-wide text-lg hover:scale-105'>Hire Me</button>
                         </a>
                         <a href="/Documents/EE_Bala Vinaithirthan.pdf" target="_blank" rel="noopener noreferrer">
-                            <button className='w-full sm:w-fit px-6 py-3 bg-white rounded-full text-black hover:bg-slate-100 mt-3'>Download CV</button>
+                            <button className='px-8 py-4 bg-transparent border-2 border-white rounded-full text-white hover:bg-white hover:text-black transition-all duration-300 font-medium tracking-wide text-lg hover:scale-105'>Download CV</button>
                         </a>
                     </div>
                 </div>

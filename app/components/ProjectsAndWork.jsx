@@ -13,7 +13,14 @@ const projects = [
         description: "I developed a set of high-performance plugins and optimizations for Tenzir, a database company specialized in handling security data.",
         link: "https://docs.tenzir.com/archive/an-interns-reflection",
         imagePath: "/Images/db.png"
+    },
+    {
+        title: "Cancer Drug Response Model",
+        description: "I developed a model that predicts the effect of cancer drugs on cell lines, xenografts, and patient samples using drug structure and gene expression data.",
+        link: "https://www.davidsongifted.org/gifted-programs/fellows-scholarship/fellows/current-and-past-fellows/2021-fellows/bala-vinaithirthan/",
+        imagePath: "/Images/cancer_model.png"
     }
+
 ]
 
 // {
@@ -27,10 +34,10 @@ const ProjectsAndWork = () => {
     return (
         <section className='py-16 px-4 md:px-8'>
             <div className='max-w-6xl mx-auto'>
-                <h2 className='text-center text-white mb-12 text-4xl sm:text-5xl lg:text-6xl font-extrabold'>
+                <h2 className='text-center text-white mb-16 text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight'>
                     Projects and Work
                 </h2>
-                <div className="flex flex-col space-y-8">
+                <div className="flex flex-col space-y-12">
                     {projects.map((project, index) => (
                         <ProjectCard
                             key={index}
