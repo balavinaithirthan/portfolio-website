@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard'
 const projects = [
     {
         title: "High Performance Bioinformatics Language",
-        description: "Working on developing a specialized language for efficient bioinformatics computations, focusing on performance optimization and user-friendly syntax for researchers.",
+        description: "Developing a specialized language to build efficient sequence alignment pipelines, focusing on performance optimization and bio-friendly syntax.",
         link: "https://cs191w.stanford.edu/projects/Vinaithirthan,%20Bala_Systems%20191W.pdf",
         imagePath: "/Images/bio.jpg"
     },
