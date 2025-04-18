@@ -27,8 +27,8 @@ const HeroSection = () => {
                         ]}
                         wrapper="span"
                         speed={50}
-                        className="text-[#FFD700] font-black tracking-tight"
-                        style={{ fontSize: '3em', display: 'inline-block' }}
+                        className="text-[#FFD700] font-black tracking-tight text-3xl sm:text-4xl lg:text-5xl"
+                        style={{ display: 'inline-block' }}
                         repeat={Infinity}
                     />
                     {/* <h1 className='text-white mb-4 text-3xl sm:text-3xl lg:text-5xl font-extrabold'>I am Bala</h1>
