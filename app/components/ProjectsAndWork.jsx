@@ -11,7 +11,7 @@ const projects = [
     {
         title: "Database Systems",
         description: "I developed a set of high-performance plugins and optimizations for Tenzir, a database company specialized in handling security data.",
-        link: "https://docs.tenzir.com/archive/an-interns-reflection",
+        link: "https://github.com/tenzir/tenzir/blob/de19c042b51b2bdd7f96440e5734ca4145636af9/web/blog/an-interns-reflection/index.md",
         imagePath: "/Images/db.png"
     },
     {
