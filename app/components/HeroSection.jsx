@@ -16,18 +16,18 @@ export default function HeroSection() {
           </h1>
           <TypeAnimation
             sequence={[
-              "training models",
+              "train models",
               1400,
-              "building abstractions",
+              "build scalable abstractions",
               1400,
-              "working at the hardware-software interface",
+              "turn research into real systems",
               1400,
             ]}
             wrapper="p"
             speed={50}
             className="text-[#FFD700] font-black tracking-tight text-3xl sm:text-4xl lg:text-5xl"
             repeat={Infinity}
-            aria-label="Training models, building abstractions, and working at the hardware-software interface"
+            aria-label="Train models, build scalable abstractions, turn research into real systems"
           />
           <div className="mt-8 flex flex-wrap justify-center sm:justify-start gap-4">
             <a
