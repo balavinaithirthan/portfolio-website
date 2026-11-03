@@ -1,15 +1,7 @@
 import ProjectCard from "./ProjectCard";
 
 const projects = [
-  {
-    title: "Applied Intuition — Autonomous Systems",
-    period: "2025–present",
-    description:
-      "Building software for autonomous vehicles, including sensor and embedded systems integration, perception pipelines, and validation in real-world environments.",
-    link: "https://www.appliedintuition.com/",
-    linkLabel: "About Applied Intuition",
-  },
-  {
+ {
     title: "FILTR — Compiling Bioinformatics Recurrences",
     period: "OOPSLA 2026",
     description:
@@ -34,6 +26,7 @@ const projects = [
       "Contributed to research on an augmented-reality science-learning experience that combines interactive storytelling with large language models, published at CHI 2024.",
     link: "https://doi.org/10.1145/3613904.3642041",
     linkLabel: "Read the paper",
+    imagePath: "/Images/moon-story.svg",
   },
   {
     title: "UCSF — Cancer and Proteomics Research",
@@ -42,16 +35,9 @@ const projects = [
       "At the Burlingame Lab, I modeled cancer-drug response and co-authored a study on improved profiling of newly synthesized proteins.",
     link: "https://pubmed.ncbi.nlm.nih.gov/36642223/",
     linkLabel: "Read the publication",
+    imagePath: "/Images/ucsf-research.svg",
   },
-  {
-    title: "SLB — Embedded and IoT Systems",
-    period: "2023",
-    description:
-      "Developed edge software for remote monitoring of methane-sensing hardware, including fault detection and connectivity for deployed sensor systems.",
-    link: "https://www.slb.com/",
-    linkLabel: "About SLB",
-  },
-  {
+ {
     title: "Cancer Drug Response Modeling",
     period: "Davidson Fellowship",
     description:
