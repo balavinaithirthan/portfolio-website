@@ -8,24 +8,43 @@ export default function AboutSection() {
         >
           About
         </h2>
-        <div className="text-gray-300 text-lg md:text-xl leading-relaxed space-y-6 bg-gray-800/30 p-8 rounded-xl backdrop-blur-sm border border-gray-700/50">
+        <div className="text-gray-300 text-lg md:text-xl leading-relaxed space-y-5 bg-gray-800/30 p-8 rounded-xl backdrop-blur-sm border border-gray-700/50">
           <p className="font-light tracking-wide">
-            I&apos;m Bala Vinaithirthan, a software engineer at Applied Intuition.
-            I work on autonomous machines and the systems connecting sensors,
-            perception, embedded software, and real-world deployment.
+            At Applied Intuition, I work on autonomy, bringing sensors,
+            perception models, and vehicle controls together in deployed systems.
           </p>
           <p className="font-light tracking-wide">
-            I earned a B.S. in Computer Science at Stanford University and
-            pursued graduate study in Electrical Engineering. My research with
-            Fredrik Kjølstad focuses on compilers and high-performance computing
-            for bioinformatics. Our work on FILTR, a compiler for bioinformatics
-            recurrences, appeared at OOPSLA 2026.
+            At Stanford, I earned a B.S. in Computer Science and pursued
+            graduate study in Electrical Engineering.
           </p>
           <p className="font-light tracking-wide">
-            Previously, I worked on high-performance C++ data systems at Tenzir,
-            embedded monitoring at SLB, and augmented-reality learning experiences
-            at Stanford. I enjoy building across the hardware, systems, and
-            machine-learning stack.
+            Two research projects I&apos;m proud of are{" "}
+            <a
+              href="https://doi.org/10.1145/3839504"
+              className="text-white underline underline-offset-4 hover:text-[#FFD700]"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              FILTR
+            </a>
+            , a compiler for bioinformatics recurrences, and{" "}
+            <a
+              href="https://doi.org/10.1145/3613904.3642041"
+              className="text-white underline underline-offset-4 hover:text-[#FFD700]"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Moon Story
+            </a>
+            , an AR and LLM learning system tested with elementary school students.
+          </p>
+          <p className="font-light tracking-wide">
+            At Tenzir, I built C++ streaming operators for Feather and Parquet
+            and optimized projection pushdown for security-data pipelines.
+          </p>
+          <p className="font-light tracking-wide">
+            At UCSF&apos;s Burlingame Lab, I modeled cancer-drug response and
+            co-authored research on profiling newly synthesized proteins.
           </p>
         </div>
       </div>

@@ -16,18 +16,18 @@ export default function HeroSection() {
           </h1>
           <TypeAnimation
             sequence={[
-              "building autonomous systems",
+              "training models",
               1400,
-              "building compilers",
+              "building abstractions",
               1400,
-              "working across hardware and ML",
+              "working at the hardware-software interface",
               1400,
             ]}
             wrapper="p"
             speed={50}
             className="text-[#FFD700] font-black tracking-tight text-3xl sm:text-4xl lg:text-5xl"
             repeat={Infinity}
-            aria-label="Software engineer working on autonomous systems, compilers, and machine learning"
+            aria-label="Training models, building abstractions, and working at the hardware-software interface"
           />
           <div className="mt-8 flex flex-wrap justify-center sm:justify-start gap-4">
             <a

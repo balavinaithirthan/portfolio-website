@@ -36,6 +36,14 @@ const projects = [
     linkLabel: "Read the paper",
   },
   {
+    title: "UCSF — Cancer and Proteomics Research",
+    period: "2021 research · 2023 publication",
+    description:
+      "At the Burlingame Lab, I modeled cancer-drug response and co-authored a study on improved profiling of newly synthesized proteins.",
+    link: "https://pubmed.ncbi.nlm.nih.gov/36642223/",
+    linkLabel: "Read the publication",
+  },
+  {
     title: "SLB — Embedded and IoT Systems",
     period: "2023",
     description:
