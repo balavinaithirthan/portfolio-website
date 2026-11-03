@@ -8,7 +8,7 @@ const projects = [
       "Co-authored a domain-specific language and compiler that separates recurrence definitions from scheduling and pruning, generating efficient C++ implementations of bioinformatics algorithms.",
     link: "https://doi.org/10.1145/3839504",
     linkLabel: "Read the paper",
-    imagePath: "/Images/bio.jpg",
+    imagePath: "/Images/filtr-figure.svg",
   },
   {
     title: "Tenzir: High-Performance Data Systems",
@@ -17,7 +17,7 @@ const projects = [
       "Built C++ streaming operators for Apache Arrow Feather and Parquet data and worked on projection-pushdown optimizations for composable security-data pipelines.",
     link: "https://github.com/tenzir/tenzir/blob/de19c042b51b2bdd7f96440e5734ca4145636af9/web/blog/an-interns-reflection/index.md",
     linkLabel: "Read about the work",
-    imagePath: "/Images/db.png",
+    imagePath: "/Images/tenzir-figure.svg",
   },
   {
     title: "Moon Story: AR and LLMs for Education",
@@ -26,7 +26,7 @@ const projects = [
       "Contributed to research on an augmented-reality science-learning experience that combines interactive storytelling with large language models, published at CHI 2024.",
     link: "https://doi.org/10.1145/3613904.3642041",
     linkLabel: "Read the paper",
-    imagePath: "/Images/moon-story.svg",
+    imagePath: "/Images/moon-story-figure.svg",
   },
   {
     title: "UCSF: Proteomics Research",
@@ -35,7 +35,7 @@ const projects = [
       "At UCSF's Burlingame Lab, I co-authored research improving the isolation and mass spectrometry identification of newly synthesized proteins.",
     link: "https://pubmed.ncbi.nlm.nih.gov/36642223/",
     linkLabel: "Read the publication",
-    imagePath: "/Images/ucsf-research.svg",
+    imagePath: "/Images/ucsf-figure.svg",
   },
  {
     title: "Cancer Drug Response Modeling",
@@ -44,7 +44,7 @@ const projects = [
       "Researched machine-learning approaches to predicting cancer-drug response using molecular and gene-expression data; recognized with a Davidson Fellowship.",
     link: "https://www.davidsongifted.org/gifted-programs/fellows-scholarship/fellows/current-and-past-fellows/2021-fellows/bala-vinaithirthan/",
     linkLabel: "Read about the project",
-    imagePath: "/Images/cancer_model.png",
+    imagePath: "/Images/drug-response-figure.svg",
   },
 ];
 

@@ -13,13 +13,13 @@ export default function ProjectCard({
     <article className="group relative overflow-hidden rounded-xl bg-gray-800/30 p-6 transition-all border border-gray-700/50">
       <div className="flex flex-col md:flex-row gap-8">
         {imagePath && (
-          <div className="w-full md:w-1/3 relative h-[200px]">
+          <div className="w-full md:w-1/3 relative h-[200px] overflow-hidden rounded-lg bg-[#F8FAFC] border border-slate-200">
             <Image
               src={imagePath}
               alt=""
               fill
               sizes="(min-width: 768px) 33vw, 100vw"
-              className="object-cover rounded-lg"
+              className="object-contain p-1"
             />
           </div>
         )}
