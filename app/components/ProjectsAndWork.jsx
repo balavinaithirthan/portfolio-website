@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
  {
-    title: "FILTR — Compiling Bioinformatics Recurrences",
+    title: "FILTR: Compiling Bioinformatics Recurrences",
     period: "OOPSLA 2026",
     description:
       "Co-authored a domain-specific language and compiler that separates recurrence definitions from scheduling and pruning, generating efficient C++ implementations of bioinformatics algorithms.",
@@ -11,7 +11,7 @@ const projects = [
     imagePath: "/Images/bio.jpg",
   },
   {
-    title: "Tenzir — High-Performance Data Systems",
+    title: "Tenzir: High-Performance Data Systems",
     period: "2024",
     description:
       "Built C++ streaming operators for Apache Arrow Feather and Parquet data and worked on projection-pushdown optimizations for composable security-data pipelines.",
@@ -20,7 +20,7 @@ const projects = [
     imagePath: "/Images/db.png",
   },
   {
-    title: "Moon Story — AR and LLMs for Education",
+    title: "Moon Story: AR and LLMs for Education",
     period: "CHI 2024",
     description:
       "Contributed to research on an augmented-reality science-learning experience that combines interactive storytelling with large language models, published at CHI 2024.",
@@ -29,10 +29,10 @@ const projects = [
     imagePath: "/Images/moon-story.svg",
   },
   {
-    title: "UCSF — Cancer and Proteomics Research",
-    period: "2021 research · 2023 publication",
+    title: "UCSF: Proteomics Research",
+    period: "2023 publication",
     description:
-      "At the Burlingame Lab, I modeled cancer-drug response and co-authored a study on improved profiling of newly synthesized proteins.",
+      "At UCSF's Burlingame Lab, I co-authored research improving the isolation and mass spectrometry identification of newly synthesized proteins.",
     link: "https://pubmed.ncbi.nlm.nih.gov/36642223/",
     linkLabel: "Read the publication",
     imagePath: "/Images/ucsf-research.svg",
